@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GeoConvert.Mexican_Man/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GeoConvert.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GeoConvert.dll": {}
+        }
+      },
+      "One_Sgp4/1.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/One_Sgp4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/One_Sgp4.dll": {}
+        }
+      },
+      "TLEParser/0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TLEParser.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TLEParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoConvert.Mexican_Man/1.1.2": {
+      "sha512": "GATRqTv+23Go/xZO0s6g+PSDpU9fe7GYgSmaVcg6v80GlfhUZkheeJo9vPJFj4YHMDcNSrZLK5AK2veg4v1j6g==",
+      "type": "package",
+      "path": "geoconvert.mexican_man/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoconvert.mexican_man.1.1.2.nupkg.sha512",
+        "geoconvert.mexican_man.nuspec",
+        "lib/netstandard2.0/GeoConvert.dll",
+        "lib/netstandard2.0/GeoConvert.xml"
+      ]
+    },
+    "One_Sgp4/1.0.12": {
+      "sha512": "h3VsSonc27vQHbfT1NRbzIgRz6BOiJnsm4IOkfL/F/t08ek04eU1AZkbARzlLFGwH8NlQ2ZksTkElty5/Ml8iA==",
+      "type": "package",
+      "path": "one_sgp4/1.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/One_Sgp4.dll",
+        "lib/net45/One_Sgp4.dll",
+        "lib/netstandard2.0/One_Sgp4.dll",
+        "lib/netstandard2.1/One_Sgp4.dll",
+        "license.txt",
+        "one_sgp4.1.0.12.nupkg.sha512",
+        "one_sgp4.nuspec"
+      ]
+    },
+    "TLEParser/0.0.2": {
+      "sha512": "G3ExB1aHu0TLOOx39sKbSID8uVJqgHDetoHFqwzaa5bVnecqYRIiRhz3zV6Qb8zVv44BaXoWO6ucVnJtcsD3sA==",
+      "type": "package",
+      "path": "tleparser/0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TLEParser.dll",
+        "tleparser.0.0.2.nupkg.sha512",
+        "tleparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "GeoConvert.Mexican_Man >= 1.1.2",
+      "One_Sgp4 >= 1.0.12",
+      "TLEParser >= 0.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\andre\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\DistToSatellite\\NearSat\\DistToSatellite.csproj",
+      "projectName": "DistToSatellite",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\DistToSatellite\\NearSat\\DistToSatellite.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\DistToSatellite\\NearSat\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "GeoConvert.Mexican_Man": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          },
+          "One_Sgp4": {
+            "target": "Package",
+            "version": "[1.0.12, )"
+          },
+          "TLEParser": {
+            "target": "Package",
+            "version": "[0.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

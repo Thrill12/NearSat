@@ -1,0 +1,8 @@
+C:\Users\andre\OneDrive\Desktop\DistToSatellite.exe
+C:\Users\andre\OneDrive\Desktop\DistToSatellite.dll
+C:\Users\andre\OneDrive\Desktop\DistToSatellite.deps.json
+C:\Users\andre\OneDrive\Desktop\DistToSatellite.runtimeconfig.json
+C:\Users\andre\OneDrive\Desktop\DistToSatellite.pdb
+C:\Users\andre\OneDrive\Desktop\GeoConvert.dll
+C:\Users\andre\OneDrive\Desktop\One_Sgp4.dll
+C:\Users\andre\OneDrive\Desktop\TLEParser.dll

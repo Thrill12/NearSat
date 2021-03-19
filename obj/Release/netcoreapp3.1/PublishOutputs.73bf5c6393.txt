@@ -1,0 +1,10 @@
+C:\Users\andre\Desktop\DistToSatellite\LastUpdateFile.txt
+C:\Users\andre\Desktop\DistToSatellite\TLEData.txt
+C:\Users\andre\Desktop\DistToSatellite\DistToSatellite.exe
+C:\Users\andre\Desktop\DistToSatellite\DistToSatellite.dll
+C:\Users\andre\Desktop\DistToSatellite\DistToSatellite.deps.json
+C:\Users\andre\Desktop\DistToSatellite\DistToSatellite.runtimeconfig.json
+C:\Users\andre\Desktop\DistToSatellite\DistToSatellite.pdb
+C:\Users\andre\Desktop\DistToSatellite\GeoConvert.dll
+C:\Users\andre\Desktop\DistToSatellite\One_Sgp4.dll
+C:\Users\andre\Desktop\DistToSatellite\TLEParser.dll

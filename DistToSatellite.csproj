@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GeoConvert.Mexican_Man" Version="1.1.2" />
+    <PackageReference Include="One_Sgp4" Version="1.0.12" />
+    <PackageReference Include="TLEParser" Version="0.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LastUpdateFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TLEData.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

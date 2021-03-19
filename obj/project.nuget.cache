@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5iEM81PzwyUBsldUD6odZbuOguw81baHeC+jVi7m7CosScdp4DBUjb6SQib6DpkwP3656iGc4krmthyubfGIuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\DistToSatellite\\NearSat\\DistToSatellite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\geoconvert.mexican_man\\1.1.2\\geoconvert.mexican_man.1.1.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\one_sgp4\\1.0.12\\one_sgp4.1.0.12.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\tleparser\\0.0.2\\tleparser.0.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

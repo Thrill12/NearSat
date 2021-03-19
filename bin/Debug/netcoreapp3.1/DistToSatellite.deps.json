@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DistToSatellite/1.0.0": {
+        "dependencies": {
+          "GeoConvert.Mexican_Man": "1.1.2",
+          "One_Sgp4": "1.0.12",
+          "TLEParser": "0.0.2"
+        },
+        "runtime": {
+          "DistToSatellite.dll": {}
+        }
+      },
+      "GeoConvert.Mexican_Man/1.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/GeoConvert.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "One_Sgp4/1.0.12": {
+        "runtime": {
+          "lib/netstandard2.1/One_Sgp4.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.12.0"
+          }
+        }
+      },
+      "TLEParser/0.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/TLEParser.dll": {
+            "assemblyVersion": "0.0.2.0",
+            "fileVersion": "0.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistToSatellite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoConvert.Mexican_Man/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GATRqTv+23Go/xZO0s6g+PSDpU9fe7GYgSmaVcg6v80GlfhUZkheeJo9vPJFj4YHMDcNSrZLK5AK2veg4v1j6g==",
+      "path": "geoconvert.mexican_man/1.1.2",
+      "hashPath": "geoconvert.mexican_man.1.1.2.nupkg.sha512"
+    },
+    "One_Sgp4/1.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3VsSonc27vQHbfT1NRbzIgRz6BOiJnsm4IOkfL/F/t08ek04eU1AZkbARzlLFGwH8NlQ2ZksTkElty5/Ml8iA==",
+      "path": "one_sgp4/1.0.12",
+      "hashPath": "one_sgp4.1.0.12.nupkg.sha512"
+    },
+    "TLEParser/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G3ExB1aHu0TLOOx39sKbSID8uVJqgHDetoHFqwzaa5bVnecqYRIiRhz3zV6Qb8zVv44BaXoWO6ucVnJtcsD3sA==",
+      "path": "tleparser/0.0.2",
+      "hashPath": "tleparser.0.0.2.nupkg.sha512"
+    }
+  }
+}
